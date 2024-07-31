@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharyFi.Cli", "SharyFi.Cli\SharyFi.Cli.csproj", "{AEA63853-0544-4BFB-89FC-A9646DA9CE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharyFi.Cli", "SharyFi.Cli\SharyFi.Cli.csproj", "{AEA63853-0544-4BFB-89FC-A9646DA9CE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharyFi.Cli.Tests", "SharyFi.Cli.Tests\SharyFi.Cli.Tests.csproj", "{33F2E30C-78FC-4845-8DE9-CD9BFBE4809E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharyFi.Cli.Tests", "SharyFi.Cli.Tests\SharyFi.Cli.Tests.csproj", "{33F2E30C-78FC-4845-8DE9-CD9BFBE4809E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B33E5E1E-1618-4468-8768-9E3F1FB672D5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
